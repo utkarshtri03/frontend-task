@@ -4,7 +4,7 @@ import SavedQueries from "./SavedQueries";
 
 const LeftDash = () => {
   return (
-    <div className="h-screen w-72 bg-slate-400">
+    <div className="h-screen w-1/4 flex flex-col space-y-6">
       <QueriesHistory />
       <SavedQueries />
     </div>

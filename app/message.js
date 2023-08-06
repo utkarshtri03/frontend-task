@@ -1,7 +1,9 @@
 import React from "react";
 
 const Message = () => {
-  return <div>Jabbaa</div>;
+  return (
+    <div>Please Select any Querry From Saved Queries or History Queries</div>
+  );
 };
 
 export default Message;
