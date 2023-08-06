@@ -3,13 +3,13 @@ import { data2 } from "./data";
 
 const Table2 = () => {
   return (
-    <div style={{ maxHeight: "400px", overflowY: "auto" }}>
-      <table className="border-collapse border border-slate-500">
+    <div className="max-h-400px overflow-y-auto w-full">
+      <table className="w-full table-auto border-collapse border border-slate-500">
         <thead>
           <tr>
-            <th className="border border-slate-600">FIRST NAME</th>
-            <th className="border border-slate-600">LAST NAME</th>
-            <th className="border border-slate-600">Gender</th>
+            <th className="border border-slate-600 text-left">FIRST NAME</th>
+            <th className="border border-slate-600 text-left">LAST NAME</th>
+            <th className="border border-slate-600 text-left">Gender</th>
           </tr>
         </thead>
         <tbody>
