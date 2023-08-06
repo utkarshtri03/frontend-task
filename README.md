@@ -25,8 +25,11 @@ and after that I have used lighthouse from chrome dev tools
 4.Optimizations to decrease load time and increase performance time -
 
 1.I have made this website responsive so that it can perform well in any size of screens
+
 2.There is so major dependecies are used that would hamper the performance of website.
+
 3.I have hosted this on vercel which provided free ssl certificates and increase security.
+
 4.I have use PWA(Progressive Web Apps) to optimize it.
 
 
