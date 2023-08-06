@@ -19,7 +19,7 @@ I have used static data for this so ,I have three queries and three table accord
 
 and after that I have used lighthouse from chrome dev tools
 
-![atlan3ss](https://github.com/utkarshtri03/frontend-task/assets/88222987/4e377a86-c7e7-43d7-9183-9c2747dc113b)
+
 
 
 
