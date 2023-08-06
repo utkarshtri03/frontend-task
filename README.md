@@ -9,3 +9,10 @@ I have used static data for this so ,I have three queries and three table accord
 
 ![atlan2ss](https://github.com/utkarshtri03/frontend-task/assets/88222987/472b0d62-d96d-4855-b6ad-6e0c0ecd65a3)
 
+
+
+2.Javascript Framework Used - I have used Next.js and tailwind-css to create this and there is no such major plugins are installed
+
+
+3.
+
