@@ -41,6 +41,7 @@ const Inputquery = ({ handleRunQuery }) => {
     setInputValue("");
     setSelectedQuery("");
   };
+
   return (
     <div className="bg-zinc-300 h-full flex flex-col space-y-4">
       <div className="relative h-full flex justify-center top-8">
