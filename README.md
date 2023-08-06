@@ -13,6 +13,6 @@ I have used static data for this so ,I have three queries and three table accord
 
 2.Javascript Framework Used - I have used Next.js and tailwind-css to create this and there is no such major plugins are installed
 
+3.I have measured the page load time from gtmetrix.com -  And the onload time is- 394ms and fully loaded time is 935 ms
 
-3.
 
