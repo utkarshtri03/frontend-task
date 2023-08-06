@@ -10,11 +10,15 @@ export function useQueryContext() {
 export function QueryProvider({ children }) {
   const [inputValue, setInputValue] = useState("");
   const [queriesAvailable, setQueriesAvailable] = useState([
-    "selet * from data",
-    "select jabba from data",
-    "select kabba from table",
+    "select * from data",
+    "select name,gender from data",
+    "select gender,phone from table",
   ]);
-  const [queriesHistory, setQueriesHistory] = useState([]);
+  const [queriesHistory, setQueriesHistory] = useState([
+    "select * from data",
+    "select name,gender from data",
+    "select gender,phone from table",
+  ]);
   const [selectedQuery, setSelectedQuery] = useState("");
   return (
     <QueryContext.Provider
