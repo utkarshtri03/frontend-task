@@ -34,5 +34,10 @@ and after that I have used lighthouse from chrome dev tools
 
 
 
+Working Demo of the project loom - Click on the link and you can see how the project works
+https://www.loom.com/share/7601bcd635e54532b2d4e4c37056333c?sid=2911f2df-dbe3-4c3e-9bc1-2a08cf12e88e
+
+
+
 
 
