@@ -14,7 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <meta name="theme-color" content="#f69435" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#f69435" />
         <link rel="manifest" href="/manifest.json" />
+        {/* Add any other meta tags, title, and description you need */}
       </Head>
       <body className={inter.className}>
         <QueryProvider>{children}</QueryProvider>
