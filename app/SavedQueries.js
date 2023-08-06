@@ -20,9 +20,9 @@ const SavedQueries = () => {
     query.toLowerCase().includes(searchTerm.toLowerCase())
   );
   return (
-    <div className="h-1/2 bg-blue-400 rounded-2xl">
+    <div className="h-1/2 bg-zinc-300 rounded-2xl">
       <div className="relative top-5 left-7">
-        <p className="mb-2">Saved Queries</p>
+        <p className="mb-2 text-blue-700">Saved Queries</p>
         <input
           className="rounded-lg w-4/5 h-8"
           placeholder="Search...."

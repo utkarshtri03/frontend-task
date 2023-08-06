@@ -1,5 +1,5 @@
-'use client'
-import React, { createContext, useState, useContext } from 'react';
+"use client";
+import React, { createContext, useState, useContext } from "react";
 
 const QueryContext = createContext();
 
@@ -8,13 +8,26 @@ export function useQueryContext() {
 }
 
 export function QueryProvider({ children }) {
-  const [inputValue, setInputValue] = useState('');
-  const [queriesAvailable, setQueriesAvailable] = useState([]);
+  const [inputValue, setInputValue] = useState("");
+  const [queriesAvailable, setQueriesAvailable] = useState([
+    "selet * from data",
+    "select jabba from data",
+    "select kabba from table",
+  ]);
   const [queriesHistory, setQueriesHistory] = useState([]);
-  const [selectedQuery, setSelectedQuery] = useState('');
+  const [selectedQuery, setSelectedQuery] = useState("");
   return (
     <QueryContext.Provider
-      value={{ inputValue, setInputValue, queriesAvailable, setQueriesAvailable, queriesHistory, setQueriesHistory,selectedQuery,setSelectedQuery, }}
+      value={{
+        inputValue,
+        setInputValue,
+        queriesAvailable,
+        setQueriesAvailable,
+        queriesHistory,
+        setQueriesHistory,
+        selectedQuery,
+        setSelectedQuery,
+      }}
     >
       {children}
     </QueryContext.Provider>
