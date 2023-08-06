@@ -5,5 +5,5 @@ Deployment Link to working application - https://frontend-task-atlan-sql.vercel.
 I have used static data for this so ,I have three queries and three table according to those queries, you can select any query from saved queries or queries history and click on run and the result will be visible.
 
 
-https://github.com/utkarshtri03/frontend-task/assets/88222987/37446bb1-7ec5-46af-b95b-4018fd3740d3
+![atlanss1](https://github.com/utkarshtri03/frontend-task/assets/88222987/b2605bca-d8eb-4236-8c08-2ae329e51d74)
 
