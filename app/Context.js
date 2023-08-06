@@ -12,12 +12,12 @@ export function QueryProvider({ children }) {
   const [queriesAvailable, setQueriesAvailable] = useState([
     "select * from data",
     "select name,gender from data",
-    "select gender,phone from table",
+    "select id,phone from table",
   ]);
   const [queriesHistory, setQueriesHistory] = useState([
     "select * from data",
     "select name,gender from data",
-    "select gender,phone from table",
+    "select id,phone from table",
   ]);
   const [selectedQuery, setSelectedQuery] = useState("");
   return (

@@ -15,7 +15,6 @@ const SavedQueries = () => {
     setSelectedQuery(query);
   };
 
-  // Filter the queriesAvailable based on the searchTerm
   const filteredQueries = queriesAvailable.filter((query) =>
     query.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -30,11 +29,11 @@ const SavedQueries = () => {
           onChange={handleSearchInputChange}
         />
         <ul>
-          {filteredQueries.map((val) => {
+          {filteredQueries.map((val, i) => {
             return (
-              <li>
+              <li key={i}>
                 <button
-                  className="bg-white rounded-lg w-4/5 h-8 mt-2 flex items-center pl-2"
+                  className="bg-white rounded-lg w-4/5 h-6 mt-2 flex items-center pl-2"
                   onClick={() => handleQueryClick(val)}
                 >
                   {val}

@@ -15,15 +15,15 @@ const Rightdash = () => {
 
   const handleRunQuery = (query) => {
     setShowInitialMessage(false);
-    if (query.trim() === "utkarsh") {
+    if (query.trim() === "select * from data") {
       setShowTable1(true);
       setShowTable2(false);
       setShowTable3(false);
-    } else if (query.trim() === "tripathi") {
+    } else if (query.trim() === "select name,gender from data") {
       setShowTable1(false);
       setShowTable2(true);
       setShowTable3(false);
-    } else if (query.trim() === "vishnu") {
+    } else if (query.trim() === "select id,phone from table") {
       setShowTable1(false);
       setShowTable2(false);
       setShowTable3(true);
