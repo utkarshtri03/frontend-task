@@ -34,11 +34,11 @@ const Rightdash = () => {
     }
   };
   return (
-    <div className="w-2/3 overflow-hidden h-screen flex flex-col space-y-5 ">
+    <div className="w-2/3 overflow-hidden h-screen flex flex-col space-y-5">
       <div className="h-1/2">
         <Inputquery handleRunQuery={handleRunQuery} />
       </div>
-      <div className="h-1/2 w-full bg-red-50 flex justify-center items-center">
+      <div className="h-1/2 w-full bg-red-50 flex flex-grow flex-col justify-center items-center">
         {showInitialMessage && <Message />}
         {showTable1 && <Table1 />}
         {showTable2 && <Table2 />}
