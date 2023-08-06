@@ -6,7 +6,7 @@ import Table2 from "./table2";
 
 export default function Home() {
   return (
-    <div className="flex w-screen">
+    <div className="flex w-screen bg-blue-100 overflow-hidden">
       <LeftDash />
       <Rightdash />
     </div>
