@@ -15,4 +15,9 @@ I have used static data for this so ,I have three queries and three table accord
 
 3.I have measured the page load time from gtmetrix.com -  And the onload time is- 394ms and fully loaded time is 935 ms
 
+![atlanss4](https://github.com/utkarshtri03/frontend-task/assets/88222987/5d0fb8bf-cd88-49e3-b533-72d0479a1813)
+
+and after that I have used lighthouse from chrome dev tools
+
+
 
