@@ -22,11 +22,12 @@ and after that I have used lighthouse from chrome dev tools
 ![atlanss5](https://github.com/utkarshtri03/frontend-task/assets/88222987/368f2424-7b9b-4e31-8101-3ab138773c24)
 
 
-4.Optimizations to decrease load time and increase performance time  -
-a. I have made this website responsive so that it can perform well in any size of screens
-b. There is so major dependecies are used that would hamper the performance of website.
-c.I have hosted this on vercel which provided free ssl certificates and increase security.
-d. I have use PWA(Progressive Web Apps) to optimize it.
+4.Optimizations to decrease load time and increase performance time -
+
+1.I have made this website responsive so that it can perform well in any size of screens
+2.There is so major dependecies are used that would hamper the performance of website.
+3.I have hosted this on vercel which provided free ssl certificates and increase security.
+4.I have use PWA(Progressive Web Apps) to optimize it.
 
 
 
