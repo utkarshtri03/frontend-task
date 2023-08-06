@@ -42,15 +42,15 @@ const Inputquery = ({ handleRunQuery }) => {
     setSelectedQuery("");
   };
   return (
-    <div className="w-2/3 bg-red-300 ml-5 my-4">
-      <div className="relative">
+    <div className="bg-red-300 h-full flex flex-col space-y-4">
+      <div className="relative h-full flex justify-center top-8">
         <textarea
-          className="h-80 w-11/12 bg-slate-400 caret-red caret-blink p-2 border border-gray-300 rounded focus:outline-none"
+          className="h-2/3 w-11/12 bg-white caret-red caret-blink p-2 border border-gray-300 rounded focus:outline-none"
           value={selectedQuery || inputValue}
           onChange={handleInputChange}
         />
       </div>
-      <div className="flex space-x-6">
+      <div className="flex space-x-6 relative bottom-6 left-10 ">
         <Button handleClick={handleRun} name="Run Query" />
         <Button handleClick={handleSave} name="Save Query" />
         <Button handleClick={handleClear} name="Clear Query" />
