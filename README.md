@@ -7,3 +7,5 @@ I have used static data for this so ,I have three queries and three table accord
 
 ![atlanss1](https://github.com/utkarshtri03/frontend-task/assets/88222987/b2605bca-d8eb-4236-8c08-2ae329e51d74)
 
+![atlan2ss](https://github.com/utkarshtri03/frontend-task/assets/88222987/472b0d62-d96d-4855-b6ad-6e0c0ecd65a3)
+
