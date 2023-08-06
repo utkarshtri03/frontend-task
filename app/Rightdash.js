@@ -34,7 +34,7 @@ const Rightdash = () => {
     }
   };
   return (
-    <div className="w-2/3 overflow-hidden h-screen flex flex-col space-y-5">
+    <div className="w-10/12 md:w-2/3 mt-5 md:mt-0 overflow-hidden h-screen flex flex-col space-y-5">
       <div className="h-1/2">
         <Inputquery handleRunQuery={handleRunQuery} />
       </div>
