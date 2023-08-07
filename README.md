@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Deployment Link to working application - https://frontend-task-atlan-sql.vercel.app/
 
-## Getting Started
+1. Overview of the Project - I have created a input field using textarea and three buttons Run, Save , Clear,  on clicking on run the querry will get executed and you see the result in form of table, and if you click on save then it will get saved in saved queries section and on pressing clear it will clear text area,
 
-First, run the development server:
+I have used static data for this so ,I have three queries and three table according to those queries, you can select any query from saved queries or queries history and click on run and the result will be visible.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![atlanss1](https://github.com/utkarshtri03/frontend-task/assets/88222987/b2605bca-d8eb-4236-8c08-2ae329e51d74)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![atlan2ss](https://github.com/utkarshtri03/frontend-task/assets/88222987/472b0d62-d96d-4855-b6ad-6e0c0ecd65a3)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+2.Javascript Framework Used - I have used Next.js and tailwind-css to create this and there is no such major plugins are installed
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.I have measured the page load time from gtmetrix.com -  And the onload time is- 394ms and fully loaded time is 935 ms
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![atlanss4](https://github.com/utkarshtri03/frontend-task/assets/88222987/5d0fb8bf-cd88-49e3-b533-72d0479a1813)
 
-## Deploy on Vercel
+and after that I have used lighthouse from chrome dev tools
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![atlanss5](https://github.com/utkarshtri03/frontend-task/assets/88222987/368f2424-7b9b-4e31-8101-3ab138773c24)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+4.Optimizations to decrease load time and increase performance time -
+
+1.I have made this website responsive so that it can perform well in any size of screens
+
+2.There is so major dependecies are used that would hamper the performance of website.
+
+3.I have hosted this on vercel which provided free ssl certificates and increase security.
+
+4.I have use PWA(Progressive Web Apps) to optimize it.
+
+
+
+Working Demo of the project loom - Click on the link and you can see how the project works
+https://www.loom.com/share/7601bcd635e54532b2d4e4c37056333c?sid=2911f2df-dbe3-4c3e-9bc1-2a08cf12e88e
+
+
+
+
+
